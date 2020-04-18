@@ -1,7 +1,7 @@
 # youtube-cypress
 
 Baixe o projeto no Github:
-- `https://github.com/samlucax/youtube-cypress.git`
+- `https://github.com/SandraPavan/youtube-cypress.git
 
 Passo a passo para executar os testes:
 
