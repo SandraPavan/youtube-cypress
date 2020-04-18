@@ -19,4 +19,5 @@ Passo a passo para executar os testes:
   - `npm install`
   - `./node_modules/.bin/cypress open`
   
-
+Observação:
+Estudos realizados a partir dos vídeos do canal Agilizei (https://www.youtube.com/channel/UCI_m5uwJjfD7trqcwAB8E3w)

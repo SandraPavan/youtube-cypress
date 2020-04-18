@@ -42,3 +42,29 @@ Cypress.Commands.add("createOng", () => {
         Cypress.env('createdOngId', response.body.id);
     });
 })
+
+Cypress.Commands.add('createNewIncient', () => {
+    cy.request({
+        method: 'POST',
+        url: 'http://localhost:3333/incidents',
+        headers: {'Authorization': `${Cypress.env('createdOngId')}`},
+        body: {
+            title: "Animal machucado",
+            description: 'Animal precisa de apoio para ter os medicamentos.',
+            value: '300'
+        }
+    }).then(response => {
+        expect(response.body.id).is.not.null;
+        cy.log(response.body.id);
+        Cypress.env('createdIncidentId', response.body.id);
+    })
+})
+
+Cypress.Commands.add('login', () => {
+    cy.visit('http://localhost:3000/profile', {
+            onBeforeLoad: (browser) => {
+                browser.localStorage.setItem('ongId', Cypress.env('createdOngId'))
+                browser.localStorage.setItem('ongName','Gatos queridos');
+            }
+        });
+})
