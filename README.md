@@ -20,13 +20,13 @@ Passo a passo para executar os testes:
   - `./node_modules/.bin/cypress open`
 
 4. Realizado Page Objects para melhorar a qualidade do código, realizando no processo abaixo: 
-   `página-> ações + elementos
-     - Ações
-        acessar login
-        preencher login
-      - Elementos
-        id
-        button`
+   - `página-> ações + elementos`
+     - `Ações`
+        - `acessar login`
+        - `preencher login`
+      - `Elementos`
+        - `id`
+        - `button`
   
 **Observação:**
 
