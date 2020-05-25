@@ -1,7 +1,7 @@
 # youtube-cypress
 
 Baixe o projeto no Github:
-- `https://github.com/SandraPavan/youtube-cypress.git
+- `https://github.com/SandraPavan/youtube-cypress.git`
 
 Passo a passo para executar os testes:
 
@@ -28,5 +28,8 @@ Passo a passo para executar os testes:
         id
         button`
   
-Observação:
-Estudos realizados a partir dos vídeos do canal Agilizei (https://www.youtube.com/channel/UCI_m5uwJjfD7trqcwAB8E3w)
+**Observação:**
+
+Estudos realizados a partir dos vídeos do canal: 
+
+- [Agilizei](https://www.youtube.com/channel/UCI_m5uwJjfD7trqcwAB8E3w "Agilizei")
