@@ -19,7 +19,7 @@ Passo a passo para executar os testes:
   - `npm install`
   - `./node_modules/.bin/cypress open`
 
-4. Realizado Page Objects para melhorar a qualidade do código, realizando no processo abaixo: 
+4.Realizado Page Objects para melhorar a qualidade do código, realizando no processo abaixo: 
    - `página-> ações + elementos`
      - `Ações`
         - `acessar login`
